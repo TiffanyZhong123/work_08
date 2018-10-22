@@ -8,7 +8,7 @@ sieve.o: sieve.c sieve.h
 	gcc -c sieve.c
 
 run:
-	./sieve 
+	./sieve
 clean:
 	rm sieve
 	rm *.o
